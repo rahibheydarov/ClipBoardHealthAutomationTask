@@ -7,4 +7,4 @@ Feature: User can browse to Amazon page and applies the needed search filters in
     Given The user is on the amazon homepage and clicks on hamburger menu
     When departments appear clicks on TV, Appliances, Electronics
     And  clicks on Televisions where he selects Samsung under brand and clicks on search
-    Then the outcome result is filtered for High to Low price and About This Item section is printed
+    Then the outcome result is filtered for High to Low price, second item on the list is clicked and About This Item section is printed

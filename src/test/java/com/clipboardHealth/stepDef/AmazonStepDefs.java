@@ -33,10 +33,16 @@ public class AmazonStepDefs {
     @When("clicks on Televisions where he selects Samsung under brand and clicks on search")
     public void clicks_on_televisions_where_he_selects_samsung_under_brand_and_clicks_on_search() {
 
+        homePage
+                .clickOnTelevisionAndSelectBrand();
+
     }
 
-    @Then("the outcome result is filtered for High to Low price and About This Item section is printed")
+    @Then("the outcome result is filtered for High to Low price, second item on the list is clicked and About This Item section is printed")
     public void the_outcome_result_is_filtered_for_high_to_low_price_and_about_this_item_section_is_printed() {
+
+        homePage
+                .highToLowPriceFilterAndPrintAboutThisItem();
 
     }
 
