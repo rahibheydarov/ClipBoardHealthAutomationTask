@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         },
 
         features = "src/test/resources/features",
-        glue = "com/clipboardHealth/stepDef",
+        glue = "src/test/java/com/clipboardHealth/stepDef",
         tags = "@wip",
         dryRun = false
 )

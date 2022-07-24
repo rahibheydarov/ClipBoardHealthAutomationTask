@@ -51,7 +51,7 @@ public class AmazonHomePage {
     @FindBy (xpath = "//*[text()=' About this item ']")
     WebElement aboutThisItem;
 
-    @FindBy (xpath = "//*[@id=\"feature-bullets\"]/ul")
+    @FindBy (xpath = "//*[@id=\"feature-bullets\"]/ul/li[1]")
     WebElement aboutThisSectionText;
 
 
@@ -110,13 +110,16 @@ public class AmazonHomePage {
 
         BrowserUtils.sleep(2);
 
-        List<WebElement> allAboutThisSectionLines = driver.findElements(By.xpath("//*[@id=\"feature-bullets\"]/ul"));
+        List<WebElement> allAboutThisSectionLines = driver.findElements(By.xpath("//*[@id=\"feature-bullets\"]/ul/li[1]"));
 
-        for (WebElement each : allAboutThisSectionLines) {
+        System.out.println(aboutThisSectionText.getText());
 
-            System.out.println(each.getText());
-
-        }
+//        for (int i = 0; i < allAboutThisSectionLines.size(); i++) {
+//
+//            System.out.println(allAboutThisSectionLines.get(i).getText());
+//
+//
+//        }
 
         return this;
     }
