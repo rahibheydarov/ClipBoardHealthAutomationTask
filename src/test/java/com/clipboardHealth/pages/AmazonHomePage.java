@@ -55,6 +55,7 @@ public class AmazonHomePage {
     WebElement aboutThisSectionText;
 
 
+
     public AmazonHomePage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(this.driver, this);
