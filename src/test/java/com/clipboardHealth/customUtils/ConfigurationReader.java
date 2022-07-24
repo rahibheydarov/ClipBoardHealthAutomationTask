@@ -13,7 +13,7 @@ public class ConfigurationReader {
         static{
 
             try {
-                FileInputStream file = new FileInputStream("configuration.properties");
+                FileInputStream file = new FileInputStream("src/configuration.properties");
 
 
 //                Java FileInputStream class obtains input bytes from a file.
