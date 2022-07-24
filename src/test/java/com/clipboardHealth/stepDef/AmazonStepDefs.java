@@ -19,12 +19,15 @@ public class AmazonStepDefs {
     public void the_user_is_on_the_amazon_homepage_and_clicks_on_hamburger_menu() {
 
         homePage
-                .open();
+                .open()
+                .clickOnHamburgerMenu();
 
     }
     @When("departments appear clicks on TV, Appliances, Electronics")
     public void departments_appear_clicks_on_tv_appliances_electronics() {
 
+        homePage
+                .clickOnTargetDepartment();
     }
 
     @When("clicks on Televisions where he selects Samsung under brand and clicks on search")
