@@ -22,8 +22,8 @@ public class AmazonHomePage {
 
     public AmazonHomePage open(){
 
-        String googleUrl = ConfigurationReader.getProperty("amazon");
-        driver.get(googleUrl);
+        String amazonIndia = ConfigurationReader.getProperty("amazon");
+        driver.get(amazonIndia);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
