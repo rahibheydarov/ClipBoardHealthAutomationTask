@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-25T21:00:36.238Z",
+        "line": 4,
+        "name": "User is on the Amazon homepage and clicks",
+        "description": "  on the filters to find the second high priced Samsung TV",
+        "id": "user-can-browse-to-amazon-page-and-applies-the-needed-search-filters-in-order-to;user-is-on-the-amazon-homepage-and-clicks",
+        "after": [
+          {
+            "result": {
+              "duration": 2004000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.clipboardHealth.stepDef.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5197000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "The user is on the amazon homepage and clicks on hamburger menu",
+            "match": {
+              "location": "com.clipboardHealth.stepDef.AmazonStepDefs.the_user_is_on_the_amazon_homepage_and_clicks_on_hamburger_menu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "departments appear clicks on TV, Appliances, Electronics",
+            "match": {
+              "location": "com.clipboardHealth.stepDef.AmazonStepDefs.departments_appear_clicks_on_tv_appliances_electronics()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3765000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "clicks on Televisions where he selects Samsung under brand and clicks on search",
+            "match": {
+              "location": "com.clipboardHealth.stepDef.AmazonStepDefs.clicks_on_televisions_where_he_selects_samsung_under_brand_and_clicks_on_search()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7317000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "the outcome result is filtered for High to Low price, second item on the list is clicked and About This Item section is printed",
+            "match": {
+              "location": "com.clipboardHealth.stepDef.AmazonStepDefs.the_outcome_result_is_filtered_for_high_to_low_price_and_about_this_item_section_is_printed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.clipboardHealth.stepDef.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can browse to Amazon page and applies the needed search filters in order to",
+    "description": "  find the desired Samsung TV to purchase",
+    "id": "user-can-browse-to-amazon-page-and-applies-the-needed-search-filters-in-order-to",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazon.feature",
+    "tags": []
+  }
+]
