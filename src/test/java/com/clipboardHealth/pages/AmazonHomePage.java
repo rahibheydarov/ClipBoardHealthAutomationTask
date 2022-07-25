@@ -3,6 +3,7 @@ package com.clipboardHealth.pages;
 import com.clipboardHealth.customUtils.BrowserUtils;
 import com.clipboardHealth.customUtils.ConfigurationReader;
 import com.clipboardHealth.customUtils.DriverUtil;
+import io.cucumber.java.et.Ja;
 import javafx.scene.layout.BackgroundRepeat;
 import org.openqa.selenium.By;
 
@@ -33,7 +34,7 @@ public class AmazonHomePage {
     @FindBy (xpath = "//*[@id=\"hmenu-content\"]/ul[9]/li[3]/a")
     WebElement television;
 
-    @FindBy (xpath = "//*[@id=\"s-refinements\"]/div[21]/ul/li[3]/span/a/span")
+    @FindBy (xpath = "//*[text()='Samsung']")
     WebElement samsungTv;
 
     @FindBy (id = "a-autoid-0-announce")
@@ -45,14 +46,20 @@ public class AmazonHomePage {
     @FindBy (xpath = "//*[@id=\"search\"]/div[1]/div[1]/div/span[3]/div[2]/div[2]")
     WebElement allTvOptions;
 
-    @FindBy (xpath = "//div[@data-cel-widget='search_result_2']")
+    @FindBy (xpath = "//*[@id=\"search\"]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div[1]/span/a/div/img")
     WebElement searchResultNo2;
 
-    @FindBy (xpath = "//*[text()=' About this item ']")
+    @FindBy (xpath = "//*[@id=\"feature-bullets\"]/h1']")
     WebElement aboutThisItem;
 
     @FindBy (xpath = "//*[@id=\"feature-bullets\"]/ul/li[1]")
     WebElement aboutThisSectionText;
+
+    @FindBy (xpath = "//*[@id=\"feature-bullets\"]/ul/li[1]/span")
+    WebElement featureBullets;
+
+    @FindBy (xpath = "//*[@id=\"centerCol\"]")
+    WebElement centerColumn;
 
 
 
@@ -93,7 +100,7 @@ public class AmazonHomePage {
 
         WebDriverWait wait = new WebDriverWait(driver,10);
 
-        WebElement word1 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"s-refinements\"]/div[21]/ul/li[3]/span/a/span")));
+        WebElement word1 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Samsung']")));
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", word1);
 
         samsungTv.click();
@@ -109,18 +116,21 @@ public class AmazonHomePage {
 
         searchResultNo2.click();
 
-        BrowserUtils.sleep(2);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,250)");
 
-        List<WebElement> allAboutThisSectionLines = driver.findElements(By.xpath("//*[@id=\"feature-bullets\"]/ul/li[1]"));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        System.out.println(aboutThisSectionText.getText());
 
-//        for (int i = 0; i < allAboutThisSectionLines.size(); i++) {
-//
-//            System.out.println(allAboutThisSectionLines.get(i).getText());
-//
-//
-//        }
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        executor.executeScript("document.getElementById('periodId').style.display='block';");
+
+
+        System.out.println(featureBullets.getText());
+
+
+
+
 
         return this;
     }
