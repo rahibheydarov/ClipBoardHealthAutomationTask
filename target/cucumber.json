@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-25T21:00:36.238Z",
+        "start_timestamp": "2022-07-25T22:15:41.432Z",
         "line": 4,
         "name": "User is on the Amazon homepage and clicks",
         "description": "  on the filters to find the second high priced Samsung TV",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 2004000000,
+              "duration": 2827000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5197000000,
+              "duration": 4889000000,
               "status": "passed"
             },
             "before": [
@@ -46,6 +46,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -57,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 138000000,
               "status": "passed"
             },
             "before": [
@@ -78,7 +79,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -90,12 +90,13 @@
           },
           {
             "result": {
-              "duration": 3765000000,
+              "duration": 3370000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -123,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 7317000000,
+              "duration": 7321000000,
               "status": "passed"
             },
             "before": [
@@ -144,7 +145,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
