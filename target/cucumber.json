@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-25T22:15:41.432Z",
+        "start_timestamp": "2022-08-01T18:00:01.226Z",
         "line": 4,
         "name": "User is on the Amazon homepage and clicks",
         "description": "  on the filters to find the second high priced Samsung TV",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 2827000000,
+              "duration": 2976000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4889000000,
+              "duration": 5094000000,
               "status": "passed"
             },
             "before": [
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 184000000,
               "status": "passed"
             },
             "before": [
@@ -79,6 +79,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -90,13 +91,12 @@
           },
           {
             "result": {
-              "duration": 3370000000,
+              "duration": 4869000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -112,7 +112,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -124,8 +123,9 @@
           },
           {
             "result": {
-              "duration": 7321000000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...Stationery\n1-24 of 6[8 results\nSort by:\n        \n            Featured\n        \n            Price: Low to High\n        \n            Price: High to Low\n        \n            Avg. Customer Review\n        \n            Newest Arrivals\n        \n    Sort by:Price: High to Low\nRESULTS\nSamsung (98 Inch) 4K Neo QLED Smart TV (QN90A, Black)\n1\nCurrently unavailable.\nSamsung 214 cm (85 inches) 8K Ultra HD Smart Neo QLED TV QA85QN900AKXXL (Steel)\n4\n₹13,49,990\n₹15,94,900 (15% off)\nSave extra with No Cost EMI\nFREE delivery by Thu, 28 Jul, 7:00 am - 9:00 pm\nSamsung 214 cm (85 inches) 4K Ultra HD Smart Neo QLED TV QA85QN90BAKXXL (Titan Black)\n₹5,75,990\n₹8,79,900 (35% off)\nGet it by Thursday, July 28\nOnly 2 left in stock.\nSamsung 189 cm (75 inches) 4K Ultra HD Smart Neo QLED TV QA75QN90BAKXXL (Titan Black)\n₹3,99,990\n₹5,89,900 (32% off)\nGet it by Thursday, July 28\nOnly 2 left in stock.\nSamsung 163 cm (65 inches) 4K Ultra HD Smart Neo QLED TV QA65QN95BAKLXL (Bright Silver)\n₹2,79,990\n₹3,49,900 (20% off)\nSave extra with No Cost EMI\nFREE delivery by Thu, 28 Jul, 7:00 am - 9:00 pm\nSamsung 189 cm (75 inches) The Frame Series 4K Smart QLED TV QA75LS03BAKXXL (Black)\n₹2,75,990\n₹4,24,900 (35% off)\nGet it by Thursday, July 28\nSamsung 163 cm (65 inches) 4K Ultra HD Smart Neo QLED TV QA65QN90BAKLXL (Titan Black)\n₹2,17,990\n₹3,04,900 (29% off)\nGet it by Thursday, July 28\nSamsung 163 cm (65 inches) 8K Ultra HD Smart Neo QLED TV QA65QN85BAKLXL (Bright Silver)\n₹1,98,990\n₹2,79,900 (29% off)\nGet it by Thursday, July 28\nSamsung 163 cm (65 inches) 4K Ultra HD Smart QLED TV QA65QN85AAKLXL (Silver)\n1\n₹1,94,990\n₹2,74,900 (29% off)\nSave extra with No Cost EMI\nFREE delivery by Thu, 28 Jul, 7:00 am - 9:00 pm\nSamsung 163 cm (65 inches) 4K Ultra HD Smart QLED TV QA65QN90AAKLXL (Black)\n2\n₹1,94,990\n₹2,99,990 (35% off)\nGet it by Thursday, July 28\nOnly 2 left in stock.\nSamsung 138 cm (55 inches) 4K Ultra HD Smart NEO QLED TV QA55QN95BAKLXL (Bright Silver)\n₹1,84,990\n₹2,54,900 (27% off)\nGet it by Thursday, July 28\nSamsung 138 cm (55 inches) 4K Ultra HD Smart NEO QLED TV QA55QN90BAKLXL (Titan Black)\n₹1,54,990\n₹2,19,900 (30% off)\nSave extra with No Cost EMI\nFREE delivery by Thu, 28 Jul, 7:00 am - 9:00 pm\nMore Buying Choices\n₹1,52,990(1 new offer)\nSamsung 138 cm (55 inches) 4K Ultra HD Smart NEO QLED TV QA55QN85BAKLXL (Bright Silver)\n₹1,39,990\n₹1,99,900 (30% off)\nGet it by Thursday, July 28\nSamsung 163 cm (65 inches) 4K Ultra HD Smart QLED TV QA65Q60TAKXXL (Black)\n5\nSamsung 163 cm (65 inches) The Frame Series 4K Smart QLED TV QA65LS03BAKLXL (Black)\n961\n₹1,29,990\n₹2,22,900 (42% off)\nGet it by Thursday, July 28\nOnly 2 left in stock.\nSamsung 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55QN90AAKLXL (Titan Black)\n14\n₹1,19,990\n₹2,11,900 (43% off)\nSave extra with No Cost EMI\nGet it by Thursday, July 28\nSamsung 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55Q60AAKLXL (Black)\n9\nSamsung 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55QN85AAKLXL (Silver)\n₹1,09,990\n₹1,92,900 (43% off)\nGet it by Thursday, July 28\nSamsung 163 cm (65 inches) Ultra HD Smart LED TV UA65AU8000KLXL (Black) (2021 Model)\nSamsung 125 cm (50 inches) 4K Ultra HD Smart NEO QLED TV QA50QN90BAKLXL (Titan Black)\n₹1,04,999\n₹1,36,900 (23% off)\nSave extra with No Cost EMI\nFREE delivery by Thu, 28 Jul, 7:00 am - 9:00 pm\nMore Buying Choices\n₹1,02,999(3 new offers)\nSamsung 138 cm (55 inches) The Frame Series 4K Smart QLED TV QA55LS03BAKLXL (Black)\n961\n₹92,990\n₹1,44,900 (36% off)\nGet it Thursday, July 28 - Monday, August 1\nOnly 2 left in stock.\nSamsung The Serif Series 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55LS01TAKXXL (Cloud White)\n316\n₹89,990\n₹1,63,900 (45% off)\nSave extra with No Cost EMI\nFREE delivery by Thu, 28 Jul, 7:00 am - 9:00 pm\nAlexa Built-in\nSamsung 125 cm (50 inches) 4K Ultra HD Smart QLED TV QA50QN90AAKLXL (Black)\n12\n₹84,990\n₹1,19,900 (29% off)\nSave extra with No Cost EMI\nGet it by Thursday, July 28\nSamsung 163 cm (65 inches) 4K Ultra HD Smart LED TV UA65AU7700KLXL (Titan Gray) (2021 Model)\n₹82,990\n₹1,24,900 (34% off)\nGet it by Thursday, July 28\nPrevious123Next\nNEED HELP?\nVisit the help section or contact us\nSponsored\nDelivery Day\nGet It by Tomorrow\nGet It in 2 Days\nDepartment\nElectronics\nHome Theater, TV \u0026 Video\nTelevisions\nSmart Televisions\nStandard Televisions\nAvg. Customer Review\n\u0026 Up\n\u0026 Up\n\u0026 Up\n\u0026 Up\nBrands\nClear\nSamsung\nOnePlus\nLG\nCROMA\nVU\nSony\nHisense\nMI\nTOSHIBA\nAmazonBasics\nTCL\nSANSUI\nPrice\n₹10,000 - ₹20,000\n₹20,000 - ₹30,000\n₹30,000 - ₹50,000\nOver ₹50,000\n₹\n₹\nGo\nResolution\n8K\n4K\n1080p\n768p\n720p\nModel Year\n2022\n2021\n2020\n2019\nSmart TV Platform\nTizen\nIdeal Viewing Distance\n6.1 to 8ft\n8.1 to 10ft\n12.1 to 15ft\nAbove 15ft\nDisplay Technology\nLED\nQLED\nScreen Size\n32\" - 39\"\n40\" - 47\"\n48\" - 54\"\n55\" \u0026 Above\nControl Method\nApp\nRemote\nTouch\nVoice\nRefresh Rate\n60 Hz\n120 Hz\nPay On Delivery\nEligible for Pay On Delivery\nNumber of USB Ports\n1\n2\n3\nMounting Type\nWall Mount\nTotal HDMI Ports\n2\n3\n4\nSupported Internet Services\nApple TV\nNetflix\nPrime Video\nYouTube\nSpecial Features\nFlat\nConnectivity Technology\nBluetooth\nEthernet\nHDMI\nUSB\nWi-Fi\nNew Arrivals\nLast 30 days\nLast 90 days\nItem condition\nNew\nRenewed\nDiscount\n10% Off or more\n25% Off or more\n35% Off or more\n50% Off or more\nSeller\nDAWNTECH ELECTRONICS PRIVATE LIMITED\nBig_Savings_Offers\nBEST ELECTRONICS FOR YOU\nInterglobe Electro India\nBestbuy Online\nEnetSLP\nWONDERSHOPEE\nAppario Retail Private Ltd\nBIG BACHAT SALE\ngadgets storm]\nAvailability\nInclud...\u003e but was:\u003c...Stationery\n1-24 of 6[9 results\nSort by:\n        \n            Featured\n        \n            Price: Low to High\n        \n            Price: High to Low\n        \n            Avg. Customer Review\n        \n            Newest Arrivals\n        \n    Sort by:Price: High to Low\nRESULTS\nSamsung (98 Inch) 4K Neo QLED Smart TV (QN90A, Black)\n1\nCurrently unavailable.\nSamsung 214 cm (85 inches) 8K Ultra HD Smart Neo QLED TV QA85QN900AKXXL (Steel)\n5\n₹13,49,990\n₹15,94,900 (15% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nSamsung 214 cm (85 inches) 4K Ultra HD Smart Neo QLED TV QA85QN90BAKXXL (Titan Black)\n1\n₹5,75,990\n₹8,79,900 (35% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nSamsung 189 cm (75 inches) 4K Ultra HD Smart Neo QLED TV QA75QN90BAKXXL (Titan Black)\n1\n₹4,54,990\n₹5,89,900 (23% off)\nGet it by Thursday, August 4\nOnly 2 left in stock.\nSamsung 189 cm (75 inches) The Frame Series 4K Smart QLED TV QA75LS03BAKXXL (Black)\n₹2,99,990\n₹4,24,900 (29% off)\nGet it by Thursday, August 4\nOnly 2 left in stock.\nSamsung 163 cm (65 inches) 4K Ultra HD Smart Neo QLED TV QA65QN95BAKLXL (Bright Silver)\n₹2,79,990\n₹3,49,900 (20% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nSamsung 163 cm (65 inches) 4K Ultra HD Smart Neo QLED TV QA65QN90BAKLXL (Titan Black)\n1\n₹2,44,990\n₹3,04,900 (20% off)\nGet it by Thursday, August 4\nMore Buying Choices\n₹2,29,990(1 new offer)\nSamsung 138 cm (55 inches) 4K Ultra HD Smart NEO QLED TV QA55QN95BAKLXL (Bright Silver)\n₹2,04,990\n₹2,54,900 (20% off)\nGet it by Thursday, August 4\nOnly 2 left in stock.\nSamsung 163 cm (65 inches) 8K Ultra HD Smart Neo QLED TV QA65QN85BAKLXL (Bright Silver)\n1\n₹1,98,990\n₹2,79,900 (29% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nMore Buying Choices\n₹1,97,990(2 new offers)\nSamsung 163 cm (65 inches) 4K Ultra HD Smart QLED TV QA65QN85AAKLXL (Silver)\n1\n₹1,94,990\n₹2,74,900 (29% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nSamsung 163 cm (65 inches) 4K Ultra HD Smart QLED TV QA65QN90AAKLXL (Black)\n2\n₹1,94,890\n₹2,99,900 (35% off)\nGet it Wednesday, August 3 - Saturday, August 6\nOnly 2 left in stock.\nSamsung 138 cm (55 inches) 4K Ultra HD Smart NEO QLED TV QA55QN90BAKLXL (Titan Black)\n1\n₹1,74,990\n₹2,19,900 (20% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nMore Buying Choices\n₹1,52,990(1 new offer)\nSamsung 138 cm (55 inches) 4K Ultra HD Smart NEO QLED TV QA55QN85BAKLXL (Bright Silver)\n1\n₹1,39,990\n₹1,99,900 (30% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nMore Buying Choices\n₹1,39,199(1 new offer)\nSamsung 163 cm (65 inches) The Frame Series 4K Smart QLED TV QA65LS03BAKLXL (Black)\n976\n₹1,34,990\n₹2,22,900 (39% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nSamsung 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55QN90AAKLXL (Titan Black)\n14\n₹1,29,990\n₹2,11,900 (39% off)\nSave extra with No Cost EMI\nGet it by Thursday, August 4\nSamsung 163 cm (65 inches) 4K Ultra HD Smart QLED TV QA65Q60TAKXXL (Black)\n5\nSamsung 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55QN85AAKLXL (Silver)\n₹1,24,990\n₹1,92,900 (35% off)\nGet it by Thursday, August 4\nSamsung 125 cm (50 inches) 4K Ultra HD Smart NEO QLED TV QA50QN90BAKLXL (Titan Black)\n1\n₹1,11,990\n₹1,36,900 (18% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nMore Buying Choices\n₹1,02,999(3 new offers)\nSamsung 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55Q60AAKLXL (Black)\n9\nSamsung 163 cm (65 inches) Ultra HD Smart LED TV UA65AU8000KLXL (Black) (2021 Model)\nSamsung 138 cm (55 inches) The Frame Series 4K Smart QLED TV QA55LS03BAKLXL (Black)\n976\n₹92,990\n₹1,44,900 (36% off)\nGet it Wednesday, August 3 - Saturday, August 6\nOnly 2 left in stock.\nSamsung 163 cm (65 inches) 4K Ultra HD Smart LED TV UA65AU7700KLXL (Titan Gray) (2021 Model)\n₹92,990\n₹1,24,900 (26% off)\nGet it by Thursday, August 4\nMore Buying Choices\n₹88,999(10 new offers)\nSamsung The Serif Series 138 cm (55 inches) 4K Ultra HD Smart QLED TV QA55LS01TAKXXL (Cloud White)\n316\n₹89,990\n₹1,63,900 (45% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nAlexa Built-in\nSamsung 125 cm (50 inches) 4K Ultra HD Smart QLED TV QA50QN90AAKLXL (Black)\n12\n₹89,990\n₹1,19,900 (25% off)\nSave extra with No Cost EMI\nGet it by Thursday, August 4\nOnly 2 left in stock.\nSponsored\nSamsung 108 cm (43 inches) Crystal 4K Neo Series Ultra HD Smart LED TV UA43AUE65AKXXL (Black)\n7,606\n₹34,990\n₹47,900 (27% off)\nSave extra with No Cost EMI\nFREE delivery by Wed, 3 Aug, 7:00 am - 9:00 pm\nPrevious123Next\nNEED HELP?\nVisit the help section or contact us\nSponsored\nDelivery Day\nGet It in 2 Days\nDepartment\nElectronics\nHome Theater, TV \u0026 Video\nTelevisions\nSmart Televisions\nStandard Televisions\nAvg. Customer Review\n\u0026 Up\n\u0026 Up\n\u0026 Up\n\u0026 Up\nBrands\nClear\nSamsung\nOnePlus\nMI\nLG\nCROMA\nVU\nAmazonBasics\niFFALCON\nSony\nSANSUI\nHisense\nTCL\nPrice\n₹10,000 - ₹20,000\n₹20,000 - ₹30,000\n₹30,000 - ₹50,000\nOver ₹50,000\n₹\n₹\nGo\nResolution\n8K\n4K\n1080p\n768p\n720p\nModel Year\n2022\n2021\n2020\n2019\nSmart TV Platform\nTizen\nIdeal Viewing Distance\n6.1 to 8ft\n8.1 to 10ft\n12.1 to 15ft\nAbove 15ft\nDisplay Technology\nLED\nQLED\nScreen Size\n24\" - 31\"\n32\" - 39\"\n40\" - 47\"\n48\" - 54\"\n55\" \u0026 Above\nControl Method\nApp\nRemote\nTouch\nVoice\nRefresh Rate\n60 Hz\n120 Hz\nPay On Delivery\nEligible for Pay On Delivery\nNumber of USB Ports\n1\n2\n3\nMounting Type\nWall Mount\nTotal HDMI Ports\n2\n3\n4\nSupported Internet Services\nApple TV\nNetflix\nPrime Video\nYouTube\nSpecial Features\nFlat\nConnectivity Technology\nBluetooth\nEthernet\nHDMI\nUSB\nWi-Fi\nNew Arrivals\nLast 30 days\nLast 90 days\nItem condition\nNew\nRenewed\nDiscount\n10% Off or more\n25% Off or more\n35% Off or more\n50% Off or more\nSeller\nDAWNTECH ELECTRONICS PRIVATE LIMITED\nBig_Savings_Offers\nBEST ELECTRONICS FOR YOU\nInterglobe Electro India\nBestbuy Online\nEnetSLP\nBIG ELE HOME\nThe-EStore\nWONDERSHOPEE\nAppario Retail Private Ltd]\nAvailability\nInclud...\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.clipboardHealth.pages.AmazonHomePage.highToLowPriceFilterAndPrintAboutThisItem(AmazonHomePage.java:509)\r\n\tat com.clipboardHealth.stepDef.AmazonStepDefs.the_outcome_result_is_filtered_for_high_to_low_price_and_about_this_item_section_is_printed(AmazonStepDefs.java:45)\r\n\tat ✽.the outcome result is filtered for High to Low price, second item on the list is clicked and About This Item section is printed(file:///C:/Users/hopes/IdeaProjects/ClipBoardHealthAutomationTask/src/test/resources/features/amazon.feature:10)\r\n",
+              "duration": 7709000000,
+              "status": "failed"
             },
             "before": [
               {
